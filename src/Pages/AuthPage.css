@@ -1,0 +1,38 @@
+.auth-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.auth-toggle {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.auth-toggle button {
+  flex: 1;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.auth-toggle .active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.auth-form {
+  padding: 10px;
+}
+
+button:focus, button:focus-visible {
+    outline: 0px auto -webkit-focus-ring-color !important;
+}

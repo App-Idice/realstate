@@ -1,0 +1,96 @@
+.add-property-container {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.add-property-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+  font-size: 24px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Two-column layout for form rows */
+.form-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Inputs, selects, textareas */
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+input[type="file"],
+select,
+textarea {
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #1976d2;
+  outline: none;
+  box-shadow: 0 2px 10px rgba(25, 118, 210, 0.25); /* 🔹 Stronger shadow on focus */
+}
+
+/* Label styling */
+label {
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #444;
+}
+
+/* Button group */
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.btn-group button {
+  width: 120px;
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-group button:hover {
+  background-color: #1257a3;
+}

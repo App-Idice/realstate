@@ -1,0 +1,81 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #007bff;
+  color: white;
+
+}
+
+.seller-dropdown-container {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 35px;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  z-index: 999;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.dropdown-item {
+  padding: 8px;
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+
+.sub-dropdown {
+  margin-left: 10px;
+  margin-top: 5px;
+  padding-left: 10px;
+  border-left: 1px solid #ddd;
+}
+
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav-left .nav-link {
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+    font-size: 16px;
+}
+
+.nav-left .nav-link:hover {
+  text-decoration: underline;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-right .login-btn {
+  background-color: white;
+  color: #007bff;
+  border: none;
+  padding: 8px 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-right .login-btn:hover {
+  background-color: #e0e0e0;
+}
